@@ -54,7 +54,7 @@ end
 function onBattleAction()
 	wasInBattle = true
 	if isWildBattle() and isOpponentShiny() then
-		if useItem("Ultra Ball") or useItem("Great Ball") or useItem("Poke Ball") then
+		if useItem("Ultra Ball") or useItem("Great Ball") or useItem("Poké Ball") then
 			return
 		end
 	end
