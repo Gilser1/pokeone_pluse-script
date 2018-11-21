@@ -38,6 +38,6 @@ function onBattleAction()
 end
 
 function onLearningMove(moveName, pokemonIndex)
-	forgetAnyMoveExcept({"Ember", "Dragon Rage", "Vine Whip", "Tackle", "Fire Fang", "Water Gun"})
+	forgetAnyMoveExcept({"Dragon Rage", "Vine Whip", "Fire Fang", "Water Pulse", "Aqua Tail", "Cut", "Fly", "Surf", "Sucker Punch"})
 	log("[INFO] A Pokemon is trying to learn "..moveName .. "!")
 end
